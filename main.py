@@ -23,7 +23,7 @@ YOUR_CHANNEL_ACCESS_TOKEN = "pJYr3wFv0fPHgCL0EJgKPjBkIjbg11mXqqkUaD70hmAAeMpcCfh
 YOUR_CHANNEL_SECRET = "3449c7705c5a5179752386f7e2717ebb"
 line_bot_api = LineBotApi(YOUR_CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(YOUR_CHANNEL_SECRET)
-FQDN = "https://team-hagi-app.herokuapp.com/"
+FQDN = "https://team-hagi.herokuapp.com/"
 cascade_path = "haarcascade_frontalface_default.xml"
 cascade_eye_path = "haarcascade_eye.xml"
 
